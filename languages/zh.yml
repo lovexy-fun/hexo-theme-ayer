@@ -20,7 +20,11 @@ category: Category
 tag: Tag
 site_visitors: 访问人数
 page_views: 浏览次数
-friends: 友情链接
+friends: 友链
+home: 主页
+archive: 归档
+collect: 收藏
+about: 关于
 
 post:
   word_count: 字数统计

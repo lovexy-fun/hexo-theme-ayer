@@ -1,10 +1,11 @@
 # 侧边栏菜单
 menu:
-  主页: /
-  归档: /archive
-  标签: /tags
-  收藏: /collect
-  关于: /about
+  home: /
+  archive: /archive
+  tags: /tags
+  collect: /collect
+  friends: /friends
+  about: /about
 
 # 站点次标题和打字动效
 # https://github.com/mattboldt/typed.js
@@ -161,13 +162,13 @@ mermaid:
   theme: forest
 
 # 网站成立年份(默认为 2019，若填入年份小于当前年份，则显示为 2018-2019 类似的格式)
-since: 2019
+since: 2020
 
 # ICP备案信息尾部显示
 icp:
   enable: true
   url: "https://beian.miit.gov.cn/" # 备案链接
-  text: "浙ICP备88888888" # 备案信息
+  text: "鲁ICP备2020039203号" # 备案信息
 # 公安备案信息尾部显示
 gongan:
   enable: false

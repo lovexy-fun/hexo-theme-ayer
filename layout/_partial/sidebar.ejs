@@ -8,7 +8,7 @@
   <ul class="nav nav-main">
     <% for (var i in theme.menu){ %>
     <li class="nav-item">
-      <a class="nav-item-link" href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+      <a class="nav-item-link" href="<%- url_for(theme.menu[i]) %>"><%= __(i) %></a>
     </li>
     <% } %>
   </ul>

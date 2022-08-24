@@ -21,6 +21,10 @@ tag: Tag
 site_visitors: Visitors
 page_views: Views
 friends: Friends
+home: Home
+archive: Archive
+collect: Collect
+about: About
 
 post:
   word_count: Word count
