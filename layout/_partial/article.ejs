@@ -63,20 +63,24 @@
     </footer>
   </div>
 
-  <% if (!index){ %> <%- partial('post/nav') %> <% } %> <% if (theme.valine &&
+  <% if (!index){ %> <%- partial('post/nav') %> <% } %>
+
+  <% if (!index) { %>
+    <!--谷歌广告-->
+    <div>
+      <%- partial('_partial/google-adsense-hor-block1') %>
+      <%- partial('_partial/google-adsense-hor-block2') %>
+    </div>
+    <div>
+      <%- partial('_partial/google-adsense-hor-block3') %>
+      <%- partial('_partial/google-adsense-hor-block4') %>
+    </div>
+  <% } %>
+
+  <% if (theme.valine &&
   theme.valine.enable && !post.no_valine){ %> <%- partial('post/valine', { key:
   post.slug, title: post.title, url: config.url+url_for(post.path) }) %> <% } %>
   <% if (is_post()) { %> <%- partial('post/gitalk') %> <% } %> <% if
   (theme.minivaline && theme.minivaline.enable && !post.no_minivaline){ %> <%-
   partial('post/minivaline') %> <% } %> <% if (is_post()) { %> <%- partial('post/twikoo') %> <% } %>
-
-  <!--谷歌广告-->
-  <div>
-    <%- partial('_partial/google-adsense-hor-block1') %>
-    <%- partial('_partial/google-adsense-hor-block2') %>
-  </div>
-  <div>
-    <%- partial('_partial/google-adsense-hor-block3') %>
-    <%- partial('_partial/google-adsense-hor-block4') %>
-  </div>
 </article>
