@@ -35,14 +35,6 @@
         <div id="reward-btn">
           <%= __('post.reward') %>
         </div>
-        <div>
-          <%- partial('_partial/google-adsense-hor-block1') %>
-          <%- partial('_partial/google-adsense-hor-block2') %>
-        </div>
-        <div>
-          <%- partial('_partial/google-adsense-hor-block3') %>
-          <%- partial('_partial/google-adsense-hor-block4') %>
-        </div>
       </div>
       <% } %>
     </div>
@@ -77,4 +69,14 @@
   <% if (is_post()) { %> <%- partial('post/gitalk') %> <% } %> <% if
   (theme.minivaline && theme.minivaline.enable && !post.no_minivaline){ %> <%-
   partial('post/minivaline') %> <% } %> <% if (is_post()) { %> <%- partial('post/twikoo') %> <% } %>
+
+  <!--谷歌广告-->
+  <div>
+    <%- partial('_partial/google-adsense-hor-block1') %>
+    <%- partial('_partial/google-adsense-hor-block2') %>
+  </div>
+  <div>
+    <%- partial('_partial/google-adsense-hor-block3') %>
+    <%- partial('_partial/google-adsense-hor-block4') %>
+  </div>
 </article>
