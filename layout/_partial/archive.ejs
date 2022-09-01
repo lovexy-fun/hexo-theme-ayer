@@ -1,4 +1,10 @@
 <section class="outer">
+  <% if (theme.googleAdsense) { %>
+    <ul class="ads">
+      <li><%- partial('_partial/google-adsense-ver-block1') %></li>
+      <li><%- partial('_partial/google-adsense-ver-block2') %></li>
+    </ul>
+  <% } %>
   <% if (theme.broadcast.enable && pagination == 2){ %>
   <%- partial('_partial/broadcast') %>
   <% } %>
