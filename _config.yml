@@ -143,7 +143,7 @@ cnzz:
 # Google Analytics
 google_analytics: ""
 # 百度统计
-baidu_analytics: ""
+baidu_analytics: b7fab159ab2dad1ac3a0b86ab429b6f2
 
 # Mathjax数学公式
 mathjax: false
