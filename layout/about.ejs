@@ -1,5 +1,7 @@
 <section class="outer">
     <h1 class="page-type-title"><%= __('about') %></h1>
     <%-page.content%>
-    <%- partial('_partial/google-adsense-multi-block') %>
+    <% if (theme.googleAdsense) { %>
+        <%- partial('_partial/google-adsense-multi-block') %>
+    <% } %>
 </section>

@@ -65,7 +65,7 @@
 
   <% if (!index){ %> <%- partial('post/nav') %> <% } %>
 
-  <% if (!index) { %>
+  <% if (!index && theme.googleAdsense) { %>
     <!--谷歌广告-->
     <div>
       <%- partial('_partial/google-adsense-hor-block1') %>

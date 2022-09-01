@@ -17,5 +17,7 @@
         <% } %>
     </ul>
     <%}%>
-    <%- partial('_partial/google-adsense-multi-block') %>
+    <% if (theme.googleAdsense) { %>
+        <%- partial('_partial/google-adsense-multi-block') %>
+    <% } %>
 </section>

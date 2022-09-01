@@ -222,9 +222,8 @@ minivaline:
   # 下面是一个例子：
   serverURL: https://minivaline.your-domain.com
 
-# 首页广告配置
-# 可以根据需要自行增加ad_3，ad_4...，留空则不显示，建议图片和url不要带ad等关键词，否则可能会被adblock等插件屏蔽
-ads:
+#谷歌广告开关，单元广钢手动设置的大小和类型
+googleAdsense: true
 
 # 网站开启加密访问，密码可设置任何字符
 lock:
